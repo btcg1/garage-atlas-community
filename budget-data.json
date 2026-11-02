@@ -1,0 +1,308 @@
+{
+  "checked": "2026-10-31",
+  "currency": "GTA$",
+  "defaultLeeway": 30,
+  "bufferBasis": "Upgrade subtotal only, including Benny and HSW conversions. Vehicle purchase prices are not inflated.",
+  "hswPerformanceAllowance": 350000,
+  "fallbackHsw": 2000000,
+  "profiles": {
+    "road": {
+      "label": "Road cars, SUVs and utility vehicles",
+      "performance": 200000,
+      "cosmetics": 600000
+    },
+    "classic": {
+      "label": "Sports classics",
+      "performance": 200000,
+      "cosmetics": 450000
+    },
+    "super": {
+      "label": "Supercars",
+      "performance": 250000,
+      "cosmetics": 750000
+    },
+    "tuner": {
+      "label": "Tuners and customization-heavy cars",
+      "performance": 250000,
+      "cosmetics": 750000
+    },
+    "bennys": {
+      "label": "Benny's custom builds, including interior or hydraulics where available",
+      "performance": 250000,
+      "cosmetics": 1000000
+    },
+    "emergency": {
+      "label": "Police and emergency vehicles",
+      "performance": 250000,
+      "cosmetics": 650000
+    },
+    "aircraft": {
+      "label": "Aircraft, including available weapons and countermeasures",
+      "performance": 350000,
+      "cosmetics": 850000
+    },
+    "motorcycle": {
+      "label": "Motorcycles",
+      "performance": 100000,
+      "cosmetics": 200000
+    },
+    "openwheel": {
+      "label": "Open-wheel race cars",
+      "performance": 300000,
+      "cosmetics": 800000
+    },
+    "weaponized": {
+      "label": "Weaponized road vehicles, including available weapons",
+      "performance": 250000,
+      "cosmetics": 1000000
+    }
+  },
+  "hsw": {
+    "s95": {
+      "cost": 525000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "astron2": {
+      "cost": 395000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "cyclone2": {
+      "cost": 475000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "arbitergt": {
+      "cost": 375000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "ignus2": {
+      "cost": 500000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "turismo2": {
+      "cost": 897000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "sentinel": {
+      "cost": 1374000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "banshee": {
+      "cost": 1840000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "hakuchou2": {
+      "cost": 1450000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "deveste": {
+      "cost": 1110000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "brioso": {
+      "cost": 1097500,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "feltzer3": {
+      "cost": 900000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "vigero2": {
+      "cost": 550000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "entity3": {
+      "cost": 850000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "issi8": {
+      "cost": 650000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "stingertt": {
+      "cost": 1418000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "monstrociti": {
+      "cost": 1109000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "buffalo5": {
+      "cost": 1415000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "coureur": {
+      "cost": 818000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "vigero3": {
+      "cost": 550000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "vivanite": {
+      "cost": 800000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "niobe": {
+      "cost": 1800000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "eurosx32": {
+      "cost": 1200000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "banshee3": {
+      "cost": 1900000,
+      "source": "https://gta.wiki/w/Hao%27s_Special_Works"
+    },
+    "tampa4": {
+      "cost": 1400000,
+      "source": "https://www.gtabase.com/vehicles/grand-theft-auto-v/tampa-gt"
+    },
+    "woodlander": {
+      "cost": 900000,
+      "source": "https://www.gtabase.com/vehicles/grand-theft-auto-v/woodlander"
+    }
+  },
+  "bennys": {
+    "buccaneer2": {
+      "donorId": "buccaneer",
+      "donorPrice": 29000,
+      "cost": 390000,
+      "source": "https://www.gtabase.com/grand-theft-auto-v/vehicles/albany-buccaneer-custom"
+    },
+    "manana2": {
+      "donorId": "manana",
+      "donorPrice": 10000,
+      "cost": 925000,
+      "source": "https://www.gtabase.com/grand-theft-auto-v/vehicles/manana-custom"
+    },
+    "banshee2": {
+      "donorId": "banshee",
+      "donorPrice": 105000,
+      "cost": 565000,
+      "source": "https://www.gtabase.com/grand-theft-auto-v/vehicles/bravado-banshee-900r"
+    },
+    "sabregt2": {
+      "donorId": "sabregt",
+      "donorPrice": 15000,
+      "cost": 490000,
+      "source": "https://www.gtabase.com/grand-theft-auto-v/vehicles/declasse-sabre-turbo-custom"
+    },
+    "nero2": {
+      "donorId": "nero",
+      "donorPrice": 1440000,
+      "cost": 605000,
+      "source": "https://www.gtabase.com/grand-theft-auto-v/vehicles/truffade-nero-custom"
+    },
+    "sentinel4": {
+      "donorId": "sentinel3",
+      "donorPrice": 650000,
+      "cost": 700000,
+      "source": "https://www.gtabase.com/grand-theft-auto-v/vehicles/sentinel-classic-widebody"
+    },
+    "peyote3": {
+      "donorId": "peyote",
+      "donorPrice": 38000,
+      "cost": 620000,
+      "source": "https://www.gtabase.com/grand-theft-auto-v/vehicles/peyote-custom"
+    }
+  },
+  "special": {
+    "greenwood": {
+      "cost": 550000,
+      "label": "Jammer and armour plating, choose jammer instead of RC unit",
+      "source": "https://www.gtabase.com/grand-theft-auto-v/vehicles/greenwood"
+    },
+    "envisage": {
+      "cost": 550000,
+      "label": "Jammer and armour allowance",
+      "source": "https://gta.wiki/w/Envisage"
+    },
+    "coureur": {
+      "cost": 400000,
+      "label": "Missile lock-on jammer",
+      "source": "https://gta.wiki/w/La_Coureuse"
+    }
+  },
+  "weaponized": [
+    "vigilante",
+    "ardent",
+    "viseris",
+    "jb7002",
+    "ignus2",
+    "toreador",
+    "stromberg",
+    "scramjet",
+    "oppressor",
+    "oppressor2",
+    "deluxo"
+  ],
+  "tuners": [
+    "r300",
+    "elegy",
+    "euros",
+    "remus",
+    "zr350",
+    "jester3",
+    "jester4",
+    "vectre",
+    "fr36",
+    "s95",
+    "sultan2",
+    "sultan3",
+    "calico",
+    "futo2",
+    "previon",
+    "penumbra2",
+    "cypher",
+    "sentinel3",
+    "sentinel4",
+    "rt3000",
+    "comet6",
+    "growler",
+    "tenf",
+    "uranus"
+  ],
+  "references": [
+    {
+      "label": "Typical performance prices",
+      "url": "https://www.gtabase.com/grand-theft-auto-v/vehicles/truffade-nero-custom",
+      "note": "Standard top-tier engine, brakes, gearbox, turbo, armour and suspension total roughly 210,000 before visual options."
+    },
+    {
+      "label": "RT3000 full-build reference",
+      "url": "https://www.gtabase.com/grand-theft-auto-v/vehicles/rt3000",
+      "note": "Published full-upgrade reference is 631,278. The tuner planning allowance here is 1,000,000 before leeway."
+    },
+    {
+      "label": "Sentinel Classic Widebody reference",
+      "url": "https://www.gtabase.com/grand-theft-auto-v/vehicles/sentinel-classic-widebody",
+      "note": "Published full-upgrade reference is 630,417, plus a new 650,000 donor and 700,000 conversion. The custom-build allowance here is 1,250,000 before leeway."
+    },
+    {
+      "label": "HSW conversion list",
+      "url": "https://gta.wiki/w/Hao%27s_Special_Works",
+      "note": "Conversion is separate from HSW performance parts. Normal performance is replaced by a 350,000 HSW performance allowance, not counted twice."
+    },
+    {
+      "label": "Sentinel XS HSW breakdown",
+      "url": "https://www.gtabase.com/grand-theft-auto-v/vehicles/ubermacht-sentinel-xs",
+      "note": "Published full-upgrade reference includes the 1,374,000 conversion. This calculator lists the conversion separately."
+    },
+    {
+      "label": "Tampa GT HSW conversion",
+      "url": "https://www.gtabase.com/vehicles/grand-theft-auto-v/tampa-gt",
+      "note": "HSW conversion reference: 1,400,000."
+    },
+    {
+      "label": "Woodlander HSW conversion",
+      "url": "https://www.gtabase.com/vehicles/grand-theft-auto-v/woodlander",
+      "note": "HSW conversion reference: 900,000."
+    },
+    {
+      "label": "Benny's donor and conversion example",
+      "url": "https://www.gtabase.com/grand-theft-auto-v/vehicles/truffade-nero-custom",
+      "note": "Nero Custom needs a 1,440,000 Nero donor plus the 605,000 conversion. Owning a separate Nero does not remove the donor from this collection budget."
+    }
+  ]
+}
