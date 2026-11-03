@@ -4,7 +4,9 @@ A free, static GTA Online collection and garage planner for GitHub Pages. No acc
 
 ## Features
 
-- 908 vehicle references with stock images, HSW flags, source links and design inspirations.
+- 908 vehicle references, including 681 sourced real-vehicle comparisons on cards and detail views. Factory bases, concepts and competition models are labeled separately.
+- HSW, Benny’s donor/custom models, full Imani Tech and missile jammer compatibility filters. Installed upgrades remain personal records.
+- Colour-coded collection dropdowns and a featured-vehicle slideshow with previous, next and pause controls.
 - Owned, Watchlist, Not interested, Not obtainable and Explore views.
 - Custom garages, capacities and themes. Count owned and watchlist together.
 - Protected garages and workshops kept empty for customisation.
@@ -51,6 +53,9 @@ The stock images and tests are packed in small archive parts to support browser 
 ```sh
 cat support-files.zip.part-* > /tmp/garage-support.zip
 unzip /tmp/garage-support.zip
+for archive in comparison-assets-*.zip; do
+  [ -f "$archive" ] && unzip -o "$archive"
+done
 ```
 
 GitHub Actions restores them automatically before validation and publishing. Personal collection data and uploaded photos are never included in these archives.
