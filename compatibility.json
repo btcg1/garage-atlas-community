@@ -1,0 +1,2024 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-11-03",
+  "scope": "GTA Online model eligibility, separate from player-installed upgrades. Exact model IDs are used.",
+  "sources": {
+    "imani": {
+      "label": "Full Imani Tech vehicle list",
+      "url": "https://www.gtabase.com/grand-theft-auto-v/guides/list-of-vehicles-in-gta-5-gta-online-by-feature?feature=imani-tech"
+    },
+    "jammer": {
+      "label": "Missile lock-on jammer vehicle list",
+      "url": "https://www.gtabase.com/grand-theft-auto-v/guides/list-of-vehicles-in-gta-5-gta-online-by-feature?feature=missile-lockon-jammer"
+    },
+    "bennys": {
+      "label": "Benny’s donor and custom conversion list",
+      "url": "https://www.gtabase.com/grand-theft-auto-v/guides/list-of-vehicles-in-gta-5-gta-online-by-feature?feature=custom"
+    },
+    "hsw": {
+      "label": "HSW vehicle specifications",
+      "url": "https://gtacars.net/gta5"
+    },
+    "rockstar173": {
+      "label": "Rockstar title update 1.73",
+      "url": "https://support.rockstargames.com/articles/4vRqEDvjUs9h7nqRUgc8YO/gtav-title-update-1-73-notes-ps5-ps4-xbox-series-x-or-s-xbox-one-pc-enhanced-legacy"
+    },
+    "rockstar172": {
+      "label": "Rockstar title update 1.72",
+      "url": "https://support.rockstargames.com/articles/0ExWSr9Bvq5Putzsn5w54/gtav-title-update-1-72-notes-ps5-ps4-xbox-series-x-or-s-xbox-one-pc-enhanced"
+    },
+    "rockstar170": {
+      "label": "Rockstar Bureau Tech and PC Enhanced notes",
+      "url": "https://support.rockstargames.com/articles/2Bg4OssFDYK9cgg0CBChnU/gtav-title-update-1-70-notes-ps5-ps4-xbox-series-x-s-xbox-one-pc"
+    },
+    "rockstar167": {
+      "label": "Rockstar Avenger workshop notes",
+      "url": "https://support.rockstargames.com/articles/6Dzat0mIjSMSSvLAoBZE9D/gtav-title-update-1-67-notes-ps5-ps4-xbox-series-x-s-xbox-one-pc"
+    },
+    "rockstarImani": {
+      "label": "Rockstar Imani Tech workshop guide",
+      "url": "https://www.rockstargames.com/gta-online/guides/k329"
+    }
+  },
+  "hsw": {
+    "ids": [
+      "eurosx32",
+      "feltzer3",
+      "banshee",
+      "banshee3",
+      "buffalo5",
+      "cyclone2",
+      "tampa4",
+      "vigero2",
+      "vigero3",
+      "brioso",
+      "stingertt",
+      "turismo2",
+      "velenogt",
+      "arbitergt",
+      "s95",
+      "vivanite",
+      "woodlander",
+      "monstrociti",
+      "entity3",
+      "horus",
+      "ignus2",
+      "coureur",
+      "astrale",
+      "astron2",
+      "deveste",
+      "hakuchou2",
+      "niobe",
+      "sentinel",
+      "firebolt",
+      "fmj2",
+      "issi8"
+    ],
+    "platforms": [
+      "PlayStation 5",
+      "Xbox Series X|S",
+      "PC Enhanced"
+    ],
+    "unavailablePlatforms": [
+      "PlayStation 4",
+      "Xbox One",
+      "PC Legacy"
+    ],
+    "workshop": "Hao’s Special Works at the LS Car Meet",
+    "prerequisite": "Use a supported game version and buy LS Car Meet membership. Pay for the HSW conversion and any HSW parts separately.",
+    "source": "rockstar170"
+  },
+  "imaniFull": [
+    "r300",
+    "aleutian",
+    "baller8",
+    "buffalo5",
+    "buffalo4",
+    "champion",
+    "deity",
+    "envisage",
+    "granger2",
+    "greenwood",
+    "jubilee",
+    "coureur",
+    "monstrociti",
+    "omnisegt",
+    "paragon3",
+    "patriot3",
+    "stingertt",
+    "terminus",
+    "turismo3",
+    "virtue"
+  ],
+  "jammer": {
+    "ninef": {
+      "sourceName": "Obey 9F",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "ninef2": {
+      "sourceName": "Obey 9F Cabrio",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "tenf": {
+      "sourceName": "Obey 10F",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "tenf2": {
+      "sourceName": "Obey 10F Widebody",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "r300": {
+      "sourceName": "Annis 300R",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "pfister811": {
+      "sourceName": "Pfister 811",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "akuma": {
+      "sourceName": "Dinka Akuma",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "aleutian": {
+      "sourceName": "Vapid Aleutian",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "alphaz1": {
+      "sourceName": "Buckingham Alpha-Z1",
+      "workshop": "hangar",
+      "source": "jammer",
+      "reference": "rockstar172"
+    },
+    "ardent": {
+      "sourceName": "Ocelot Ardent",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "astrale": {
+      "sourceName": "Pfister Astrale",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "avenger": {
+      "sourceName": "Mammoth Avenger",
+      "workshop": "avenger",
+      "source": "jammer",
+      "reference": "rockstar167",
+      "note": "The jammer works while the Avenger is on autopilot. It is an alternative to the Stealth Module autopilot defense."
+    },
+    "bagger": {
+      "sourceName": "Western Bagger",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "baller5": {
+      "sourceName": "Gallivanter Baller LE (Armored)",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "baller4": {
+      "sourceName": "Gallivanter Baller LE LWB",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "baller6": {
+      "sourceName": "Gallivanter Baller LE LWB (Armored)",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "baller8": {
+      "sourceName": "Gallivanter Baller ST-D",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "banshee3": {
+      "sourceName": "Bravado Banshee GTS",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "bati": {
+      "sourceName": "Pegassi Bati 801",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "bati2": {
+      "sourceName": "Pegassi Bati 801RR",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "besra": {
+      "sourceName": "Western Company Besra",
+      "workshop": "hangar",
+      "source": "jammer",
+      "reference": "rockstar172"
+    },
+    "bf400": {
+      "sourceName": "Nagasaki BF400",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "bison": {
+      "sourceName": "Bravado Bison",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "blade": {
+      "sourceName": "Vapid Blade",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "blazer": {
+      "sourceName": "Nagasaki Blazer",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "bodhi2": {
+      "sourceName": "Canis Bodhi",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "openwheel1": {
+      "sourceName": "Benefactor BR8 (Formula 1 Car)",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "brawler": {
+      "sourceName": "Coil Brawler",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "brigham": {
+      "sourceName": "Albany Brigham",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "brioso": {
+      "sourceName": "Grotti Brioso R/A",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "broadway": {
+      "sourceName": "Classique Broadway",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "buffalo5": {
+      "sourceName": "Bravado Buffalo EVX",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "buffalo2": {
+      "sourceName": "Bravado Buffalo S",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "polbuffalo": {
+      "sourceName": "Bravado Buffalo S Cruiser",
+      "workshop": "agency",
+      "source": "jammer",
+      "modelSource": "https://gtacars.net/gta5/polbuffalo"
+    },
+    "buffalo4": {
+      "sourceName": "Bravado Buffalo STX",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "polbuffalo6": {
+      "sourceName": "Bravado Buffalo STX Pursuit",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "bullet": {
+      "sourceName": "Vapid Bullet",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "calico": {
+      "sourceName": "Karin Calico GTF",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "caracara2": {
+      "sourceName": "Vapid Caracara 4x4",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "polcaracara": {
+      "sourceName": "Vapid Caracara Pursuit",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "carbonrs": {
+      "sourceName": "Nagasaki Carbon RS",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "cargobob": {
+      "sourceName": "Western Company Cargobob",
+      "workshop": "hangar",
+      "source": "jammer",
+      "reference": "rockstar172"
+    },
+    "cargobob2": {
+      "sourceName": "Western Company Cargobob Jetsam",
+      "workshop": "hangar",
+      "source": "jammer",
+      "reference": "rockstar172"
+    },
+    "cartuccia": {
+      "sourceName": "Grotti Cartuccia GT",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "cavalcade3": {
+      "sourceName": "Albany Cavalcade XL",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "champion": {
+      "sourceName": "Dewbauchee Champion",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "chavosv6": {
+      "sourceName": "Dinka Chavos V6",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "cheburek": {
+      "sourceName": "RUNE Cheburek",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "cheetah": {
+      "sourceName": "Grotti Cheetah",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "cinquemila": {
+      "sourceName": "Lampadati Cinquemila",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "cliffhanger": {
+      "sourceName": "Western Cliffhanger",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "cognoscenti": {
+      "sourceName": "Enus Cognoscenti",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "cognoscenti2": {
+      "sourceName": "Enus Cognoscenti (Armored)",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "cog55": {
+      "sourceName": "Enus Cognoscenti 55",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "cog552": {
+      "sourceName": "Enus Cognoscenti 55 (Armored)",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "comet2": {
+      "sourceName": "Pfister Comet",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "comet6": {
+      "sourceName": "Pfister Comet S2",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "comet7": {
+      "sourceName": "Pfister Comet S2 Cabrio",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "comet4": {
+      "sourceName": "Pfister Comet Safari",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "comet5": {
+      "sourceName": "Pfister Comet SR",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "conada": {
+      "sourceName": "Buckingham Conada",
+      "workshop": "hangar",
+      "source": "jammer",
+      "reference": "rockstar172"
+    },
+    "contender": {
+      "sourceName": "Vapid Contender",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "coquette": {
+      "sourceName": "Invetero Coquette",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "coquette3": {
+      "sourceName": "Invetero Coquette BlackFin",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "polcoquette4": {
+      "sourceName": "Invetero Coquette D10 Pursuit",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "coquette6": {
+      "sourceName": "Invetero Coquette D5",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "cyclone": {
+      "sourceName": "Coil Cyclone",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "cypher": {
+      "sourceName": "Übermacht Cypher",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "daemon2": {
+      "sourceName": "Western Daemon (Custom)",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "deity": {
+      "sourceName": "Enus Deity",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "deveste": {
+      "sourceName": "Principe Deveste Eight",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "deviant": {
+      "sourceName": "Schyster Deviant",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "cargobob5": {
+      "sourceName": "Buckingham DH-7 Iron Mule",
+      "workshop": "hangar",
+      "source": "jammer",
+      "reference": "rockstar172"
+    },
+    "dodo": {
+      "sourceName": "Mammoth Dodo",
+      "workshop": "hangar",
+      "source": "jammer",
+      "reference": "rockstar172"
+    },
+    "dominator": {
+      "sourceName": "Vapid Dominator",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "dominator7": {
+      "sourceName": "Vapid Dominator ASP",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "poldominator10": {
+      "sourceName": "Vapid Dominator FX Interceptor",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "dominator9": {
+      "sourceName": "Vapid Dominator GT",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "dominator8": {
+      "sourceName": "Vapid Dominator GTT",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "poldorado": {
+      "sourceName": "Bravado Dorado Cruiser",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "double": {
+      "sourceName": "Dinka Double-T",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "openwheel2": {
+      "sourceName": "Declasse DR1 (IndyCar)",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "l352": {
+      "sourceName": "Declasse Drift Walton L35",
+      "workshop": "agency",
+      "source": "jammer",
+      "modelSource": "https://gtacars.net/gta5/l352",
+      "note": "GTABase labels this entry Drift Walton L35. The base model here is Walton L35 Stock (l352), confirmed with the jammer upgrade by GTACars. The original Walton L35 (l35) is a different model."
+    },
+    "dubsta3": {
+      "sourceName": "Benefactor Dubsta 6x6",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "dukes2": {
+      "sourceName": "Imponte Duke O'Death",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "estride": {
+      "sourceName": "Ocelot E-Stride",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "elegy2": {
+      "sourceName": "Annis Elegy RH8",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "entity3": {
+      "sourceName": "Overflod Entity MT",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "entityxf": {
+      "sourceName": "Overflod Entity XF",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "envisage": {
+      "sourceName": "Bollokan Envisage",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "sheava": {
+      "sourceName": "Emperor ETR1",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "eudora": {
+      "sourceName": "Willard Eudora",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "euros": {
+      "sourceName": "Annis Euros",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "everon3": {
+      "sourceName": "Karin Everon RS",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "faction": {
+      "sourceName": "Willard Faction",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "felon": {
+      "sourceName": "Lampadati Felon",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "felon2": {
+      "sourceName": "Lampadati Felon GT",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "feltzer2": {
+      "sourceName": "Benefactor Feltzer",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "firebolt": {
+      "sourceName": "Vapid Firebolt ASP",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "fmj": {
+      "sourceName": "Vapid FMJ",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "fmj2": {
+      "sourceName": "Vapid FMJ MK V",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "fr36": {
+      "sourceName": "Fathom FR36",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "frogger": {
+      "sourceName": "Maibatsu Frogger",
+      "workshop": "hangar",
+      "source": "jammer",
+      "reference": "rockstar173"
+    },
+    "futo": {
+      "sourceName": "Karin Futo",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "futo2": {
+      "sourceName": "Karin Futo GTX",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "gauntlet": {
+      "sourceName": "Bravado Gauntlet",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "gauntlet4": {
+      "sourceName": "Bravado Gauntlet Hellfire",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "polgauntlet": {
+      "sourceName": "Bravado Gauntlet Interceptor",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "gp1": {
+      "sourceName": "Progen GP1",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "granger2": {
+      "sourceName": "Declasse Granger 3600LX",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "greenwood": {
+      "sourceName": "Bravado Greenwood",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "polgreenwood": {
+      "sourceName": "Bravado Greenwood Cruiser",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "gt500": {
+      "sourceName": "Grotti GT500",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "gt750": {
+      "sourceName": "Grotti GT750",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "hakuchou": {
+      "sourceName": "Shitzu Hakuchou",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "hakuchou2": {
+      "sourceName": "Shitzu Hakuchou Drag Bike",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "hardy": {
+      "sourceName": "Annis Hardy",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "hellion": {
+      "sourceName": "Annis Hellion",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "hermes": {
+      "sourceName": "Albany Hermes",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "hexer": {
+      "sourceName": "LCC Hexer",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "horus": {
+      "sourceName": "Pegassi Horus",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "howard": {
+      "sourceName": "Buckingham Howard NX-25",
+      "workshop": "hangar",
+      "source": "jammer",
+      "reference": "rockstar172"
+    },
+    "ignus": {
+      "sourceName": "Pegassi Ignus",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "polignus": {
+      "sourceName": "Pegassi Ignus Pursuit",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "imorgon": {
+      "sourceName": "Overflod Imorgon",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "impaler6": {
+      "sourceName": "Declasse Impaler LX",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "polimpaler6": {
+      "sourceName": "Declasse Impaler LX Cruiser",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "polimpaler5": {
+      "sourceName": "Declasse Impaler SZ Cruiser",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "infernus": {
+      "sourceName": "Pegassi Infernus",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "issi2": {
+      "sourceName": "Weeny Issi",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "issi7": {
+      "sourceName": "Weeny Issi Sport",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "itali2": {
+      "sourceName": "Grotti Itali Classic",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "italigto": {
+      "sourceName": "Grotti Itali GTO",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "jb7002": {
+      "sourceName": "Dewbauchee JB 700W",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "jester3": {
+      "sourceName": "Dinka Jester Classic",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "jester4": {
+      "sourceName": "Dinka Jester RR",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "jubilee": {
+      "sourceName": "Enus Jubilee",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "jugular": {
+      "sourceName": "Ocelot Jugular",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "kalahari": {
+      "sourceName": "Canis Kalahari",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "komoda": {
+      "sourceName": "Lampadati Komoda",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "krieger": {
+      "sourceName": "Benefactor Krieger",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "kuruma": {
+      "sourceName": "Karin Kuruma",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "coureur": {
+      "sourceName": "Penaud La Coureuse",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "laufer": {
+      "sourceName": "Benefactor Läufer",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "locust": {
+      "sourceName": "Ocelot Locust",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "lrcgt": {
+      "sourceName": "Benefactor LRC GT",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "cheetah3": {
+      "sourceName": "Grotti LSCM Cheetah Classic",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "jester5": {
+      "sourceName": "Dinka LSCM Jester RR (Widebody)",
+      "workshop": "agency",
+      "source": "jammer",
+      "modelSource": "https://gtacars.net/gta5/jester5"
+    },
+    "luiva": {
+      "sourceName": "Progen Luiva",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "luxor": {
+      "sourceName": "Buckingham Luxor",
+      "workshop": "hangar",
+      "source": "jammer",
+      "reference": "rockstar172"
+    },
+    "luxor2": {
+      "sourceName": "Buckingham Luxor Deluxe",
+      "workshop": "hangar",
+      "source": "jammer",
+      "reference": "rockstar172"
+    },
+    "manchez": {
+      "sourceName": "Maibatsu Manchez",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "manchez2": {
+      "sourceName": "Maibatsu Manchez Scout",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "massacro": {
+      "sourceName": "Dewbauchee Massacro",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "massacro2": {
+      "sourceName": "Dewbauchee Massacro (Racecar)",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "maverick": {
+      "sourceName": "Buckingham Maverick",
+      "workshop": "hangar",
+      "source": "jammer",
+      "reference": "rockstar172"
+    },
+    "merula": {
+      "sourceName": "Albany Merula",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "mesa3": {
+      "sourceName": "Canis Mesa (Merryweather)",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "monstrociti": {
+      "sourceName": "Maibatsu MonstroCiti",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "neo": {
+      "sourceName": "Vysser Neo",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "niobe": {
+      "sourceName": "Übermacht Niobe",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "omnisegt": {
+      "sourceName": "Obey Omnis e-GT",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "polfaction2": {
+      "sourceName": "Willard Outreach Faction",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "paragon": {
+      "sourceName": "Enus Paragon R",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "paragon3": {
+      "sourceName": "Enus Paragon S",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "patriot": {
+      "sourceName": "Mammoth Patriot",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "patriot3": {
+      "sourceName": "Mammoth Patriot Mil-Spec",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "peyote2": {
+      "sourceName": "Vapid Peyote Gasser",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "pipistrello": {
+      "sourceName": "Overflod Pipistrello",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "pizzaboy": {
+      "sourceName": "Pegassi Pizza Boy",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "policeb2": {
+      "sourceName": "Western Police Bike",
+      "workshop": "agency",
+      "source": "jammer",
+      "modelSource": "https://gtacars.net/gta5/policeb2"
+    },
+    "police5": {
+      "sourceName": "Vapid Police Cruiser (Stanier LE)",
+      "workshop": "agency",
+      "source": "jammer",
+      "modelSource": "https://gtacars.net/gta5/police5"
+    },
+    "formula": {
+      "sourceName": "Progen PR4 (Formula 1 Car)",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "formula2": {
+      "sourceName": "Ocelot R88 (Formula 1 Car)",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "raiden": {
+      "sourceName": "Coil Raiden",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "rapidgt": {
+      "sourceName": "Dewbauchee Rapid GT",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "rapidgt2": {
+      "sourceName": "Dewbauchee Rapid GT Cabrio",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "rapidgt3": {
+      "sourceName": "Dewbauchee Rapid GT Classic",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "rapidgt4": {
+      "sourceName": "Dewbauchee Rapid GT X",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "raptor": {
+      "sourceName": "BF Raptor",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "ratel": {
+      "sourceName": "Vapid Ratel",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "le7b": {
+      "sourceName": "Annis RE-7B",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "reever": {
+      "sourceName": "Western Reever",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "remus": {
+      "sourceName": "Annis Remus",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "revolter": {
+      "sourceName": "Übermacht Revolter",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "rumpo3": {
+      "sourceName": "Bravado Rumpo Custom",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "s80": {
+      "sourceName": "Annis S80RR",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "sanchez2": {
+      "sourceName": "Maibatsu Sanchez",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "sanchez": {
+      "sourceName": "Maibatsu Sanchez (Livery)",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "savestra": {
+      "sourceName": "Annis Savestra",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "sc1": {
+      "sourceName": "Übermacht SC1",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "schafter4": {
+      "sourceName": "Benefactor Schafter LWB",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "schafter6": {
+      "sourceName": "Benefactor Schafter LWB (Armored)",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "schafter3": {
+      "sourceName": "Benefactor Schafter V12",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "schafter5": {
+      "sourceName": "Benefactor Schafter V12 (Armored)",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "sentinel2": {
+      "sourceName": "Übermacht Sentinel",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "sentinel3": {
+      "sourceName": "Übermacht Sentinel Classic",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "sentinel5": {
+      "sourceName": "Übermacht Sentinel GTS",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "sentinel6": {
+      "sourceName": "Übermacht Sentinel XS4",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "seven70": {
+      "sourceName": "Dewbauchee Seven-70",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "shinobi": {
+      "sourceName": "Nagasaki Shinobi",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "shotaro": {
+      "sourceName": "Nagasaki Shotaro",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "stafford": {
+      "sourceName": "Enus Stafford",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "stanier": {
+      "sourceName": "Vapid Stanier",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "stinger": {
+      "sourceName": "Grotti Stinger",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "stingergt": {
+      "sourceName": "Grotti Stinger GT",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "stingertt": {
+      "sourceName": "Grotti Stinger TT",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "feltzer3": {
+      "sourceName": "Benefactor Stirling GT",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "blazer4": {
+      "sourceName": "Nagasaki Street Blazer",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "sultan": {
+      "sourceName": "Karin Sultan",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "superd": {
+      "sourceName": "Enus Super Diamond",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "supervolito": {
+      "sourceName": "Buckingham SuperVolito",
+      "workshop": "hangar",
+      "source": "jammer",
+      "reference": "rockstar172"
+    },
+    "supervolito2": {
+      "sourceName": "Buckingham SuperVolito Carbon",
+      "workshop": "hangar",
+      "source": "jammer",
+      "reference": "rockstar172"
+    },
+    "swift2": {
+      "sourceName": "Buckingham Swift Deluxe",
+      "workshop": "hangar",
+      "source": "jammer",
+      "reference": "rockstar172"
+    },
+    "swinger": {
+      "sourceName": "Ocelot Swinger",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "tailgater": {
+      "sourceName": "Obey Tailgater",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "tampa4": {
+      "sourceName": "Declasse Tampa GT",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "terminus": {
+      "sourceName": "Canis Terminus",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "polterminus": {
+      "sourceName": "Canis Terminus Patrol",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "terbyte": {
+      "sourceName": "Benefactor Terrorbyte",
+      "workshop": "garment",
+      "source": "jammer",
+      "reference": "rockstar170",
+      "note": "This is Bureau Tech for an owned Terrorbyte. It does not grant the Imani remote control unit."
+    },
+    "tezeract": {
+      "sourceName": "Pegassi Tezeract",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "tigon": {
+      "sourceName": "Lampadati Tigon",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "titan": {
+      "sourceName": "Titan",
+      "workshop": "hangar",
+      "source": "jammer",
+      "reference": "rockstar173"
+    },
+    "torero": {
+      "sourceName": "Pegassi Torero",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "torero2": {
+      "sourceName": "Pegassi Torero XO",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "toros": {
+      "sourceName": "Pegassi Toros",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "tulip": {
+      "sourceName": "Declasse Tulip",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "turismo3": {
+      "sourceName": "Grotti Turismo Omaggio",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "tyrus": {
+      "sourceName": "Progen Tyrus",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "police4": {
+      "sourceName": "Vapid Unmarked Cruiser",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "uranus": {
+      "sourceName": "Vapid Uranus LozSpeed",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "vstr": {
+      "sourceName": "Albany V-STR",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "vacca": {
+      "sourceName": "Pegassi Vacca",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "velenogt": {
+      "sourceName": "Grotti Veleno GT",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "veto": {
+      "sourceName": "Dinka Veto Classic (Go-Kart)",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "veto2": {
+      "sourceName": "Dinka Veto Modern (Go-Kart)",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "vigero2": {
+      "sourceName": "Declasse Vigero ZX",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "virtue": {
+      "sourceName": "Ocelot Virtue",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "viseris": {
+      "sourceName": "Lampadati Viseris",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "visione": {
+      "sourceName": "Grotti Visione",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "volatus": {
+      "sourceName": "Buckingham Volatus",
+      "workshop": "hangar",
+      "source": "jammer",
+      "reference": "rockstar172"
+    },
+    "vortex": {
+      "sourceName": "Pegassi Vortex",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "warden": {
+      "sourceName": "Gallivanter Warden",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "ignus2": {
+      "sourceName": "Pegassi Weaponized Ignus",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "weevil2": {
+      "sourceName": "BF Weevil Custom",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "woodlander": {
+      "sourceName": "Karin Woodlander",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "xtreme": {
+      "sourceName": "Pfister X-Treme",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "xa21": {
+      "sourceName": "Ocelot XA-21",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "xls": {
+      "sourceName": "Benefactor XLS",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "xls2": {
+      "sourceName": "Benefactor XLS (Armored)",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "youga2": {
+      "sourceName": "Bravado Youga Classic",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "ztype": {
+      "sourceName": "Truffade Z-Type",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "zentorno": {
+      "sourceName": "Pegassi Zentorno",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "zhaba": {
+      "sourceName": "RUNE Zhaba",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "zion3": {
+      "sourceName": "Übermacht Zion Classic",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "zombieb": {
+      "sourceName": "Western Zombie Chopper",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "zorrusso": {
+      "sourceName": "Pegassi Zorrusso",
+      "workshop": "agency",
+      "source": "jammer"
+    },
+    "zr350": {
+      "sourceName": "Annis ZR350",
+      "workshop": "agency",
+      "source": "jammer"
+    }
+  },
+  "bennys": [
+    {
+      "id": "tenf2",
+      "donorIds": [
+        "tenf"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "banshee2",
+      "donorIds": [
+        "banshee"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "brioso3",
+      "donorIds": [
+        "brioso2"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "buccaneer2",
+      "donorIds": [
+        "buccaneer"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "chino2",
+      "donorIds": [
+        "chino"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "comet3",
+      "donorIds": [
+        "comet2"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "diablous2",
+      "donorIds": [
+        "diablous"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "elegy",
+      "donorIds": [
+        "elegy2"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "faction2",
+      "donorIds": [
+        "faction"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "faction3",
+      "donorIds": [
+        "faction"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "fcr2",
+      "donorIds": [
+        "fcr"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "gauntlet5",
+      "donorIds": [
+        "gauntlet3"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "glendale2",
+      "donorIds": [
+        "glendale"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "italigtb2",
+      "donorIds": [
+        "italigtb"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "manana2",
+      "donorIds": [
+        "manana"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "minivan2",
+      "donorIds": [
+        "minivan"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "moonbeam2",
+      "donorIds": [
+        "moonbeam"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "nero2",
+      "donorIds": [
+        "nero"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "peyote3",
+      "donorIds": [
+        "peyote"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "primo2",
+      "donorIds": [
+        "primo"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "sabregt2",
+      "donorIds": [
+        "sabregt"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "sentinel4",
+      "donorIds": [
+        "sentinel3"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "slamvan3",
+      "donorIds": [
+        "slamvan"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "specter2",
+      "donorIds": [
+        "specter"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "sultanrs",
+      "donorIds": [
+        "sultan"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "tornado5",
+      "donorIds": [
+        "tornado",
+        "tornado2",
+        "tornado3"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "virgo2",
+      "donorIds": [
+        "virgo3"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "voodoo",
+      "donorIds": [
+        "voodoo2"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "weevil2",
+      "donorIds": [
+        "weevil"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "yosemite3",
+      "donorIds": [
+        "yosemite"
+      ],
+      "source": "bennys"
+    },
+    {
+      "id": "youga3",
+      "donorIds": [
+        "youga2"
+      ],
+      "source": "bennys"
+    }
+  ],
+  "variantAliases": {
+    "avenger3": "avenger"
+  },
+  "workshops": {
+    "agency": {
+      "label": "Agency Vehicle Workshop",
+      "requirements": "Own an Agency with its Vehicle Workshop upgrade. Eligible road vehicles can also use the Vinewood Club Garage workshop with GTA+ where available.",
+      "source": "rockstar173"
+    },
+    "hangar": {
+      "label": "Hangar Aircraft Workshop",
+      "requirements": "Own a Hangar with its Aircraft Workshop. Convert eligible Pegasus aircraft into personal aircraft by storing them in your Hangar before modification.",
+      "source": "rockstar172"
+    },
+    "avenger": {
+      "label": "Hangar Aircraft Workshop",
+      "requirements": "Own an Avenger and a Hangar with its Workshop upgrade. Select an autopilot defense upgrade.",
+      "source": "rockstar167"
+    },
+    "garment": {
+      "label": "Darnell Bros Garment Factory",
+      "requirements": "Own the Garment Factory and an owned Terrorbyte. Install the Bureau Tech jammer there.",
+      "source": "rockstar170"
+    }
+  },
+  "researchNotes": [
+    "258 logical jammer entries map to exact catalogue IDs. The Avenger upgraded state is an alias of the same service aircraft.",
+    "31 Benny’s conversion outcomes. Tornado convertible and beater are verified additional donors. Mariachi and Rat Rod variants are excluded.",
+    "The Walton L35 Stock mapping corrects a source naming discrepancy using its per-model specification.",
+    "Imani full means jammer or remote control unit support. Armor, weapons and mines vary by vehicle and are not assumed for all 20."
+  ],
+  "modelNames": {
+    "akuma": "Dinka Akuma",
+    "aleutian": "Vapid Aleutian",
+    "alphaz1": "Buckingham Alpha-Z1",
+    "arbitergt": "Imponte Arbiter GT",
+    "ardent": "Ocelot Ardent",
+    "astrale": "Pfister Astrale",
+    "astron2": "Pfister Astron Custom",
+    "avenger": "Mammoth Avenger",
+    "bagger": "Western Bagger",
+    "baller4": "Gallivanter Baller LE LWB",
+    "baller5": "Gallivanter Baller LE (Armored)",
+    "baller6": "Gallivanter Baller LE LWB (Armored)",
+    "baller8": "Gallivanter Baller ST-D",
+    "banshee": "Bravado Banshee",
+    "banshee2": "Bravado Banshee 900R",
+    "banshee3": "Bravado Banshee GTS",
+    "bati": "Pegassi Bati 801",
+    "bati2": "Pegassi Bati 801RR",
+    "besra": "Western Besra",
+    "bf400": "Nagasaki BF400",
+    "bison": "Bravado Bison",
+    "blade": "Vapid Blade",
+    "blazer": "Nagasaki Blazer",
+    "blazer4": "Nagasaki Street Blazer",
+    "bodhi2": "Canis Bodhi",
+    "brawler": "Coil Brawler",
+    "brigham": "Albany Brigham",
+    "brioso": "Grotti Brioso R/A",
+    "brioso2": "Grotti Brioso 300",
+    "brioso3": "Grotti Brioso 300 Widebody",
+    "broadway": "Classique Broadway",
+    "buccaneer": "Albany Buccaneer",
+    "buccaneer2": "Albany Buccaneer Custom",
+    "buffalo2": "Bravado Buffalo S",
+    "buffalo4": "Bravado Buffalo STX",
+    "buffalo5": "Bravado Buffalo EVX",
+    "bullet": "Vapid Bullet",
+    "calico": "Karin Calico GTF",
+    "caracara2": "Vapid Caracara 4x4",
+    "carbonrs": "Nagasaki Carbon RS",
+    "cargobob": "Western Cargobob",
+    "cargobob2": "Western Cargobob",
+    "cargobob5": "Buckingham DH-7 Iron Mule",
+    "cartuccia": "Grotti Cartuccia GT",
+    "cavalcade3": "Albany Cavalcade XL",
+    "champion": "Dewbauchee Champion",
+    "chavosv6": "Dinka Chavos V6",
+    "cheburek": "RUNE Cheburek",
+    "cheetah": "Grotti Cheetah",
+    "cheetah3": "Grotti LSCM Cheetah Classic",
+    "chino": "Vapid Chino",
+    "chino2": "Vapid Chino Custom",
+    "cinquemila": "Lampadati Cinquemila",
+    "cliffhanger": "Western Cliffhanger",
+    "cog55": "Enus Cognoscenti 55",
+    "cog552": "Enus Cognoscenti 55 (Armored)",
+    "cognoscenti": "Enus Cognoscenti",
+    "cognoscenti2": "Enus Cognoscenti (Armored)",
+    "comet2": "Pfister Comet",
+    "comet3": "Pfister Comet Retro Custom",
+    "comet4": "Pfister Comet Safari",
+    "comet5": "Pfister Comet SR",
+    "comet6": "Pfister Comet S2",
+    "comet7": "Pfister Comet S2 Cabrio",
+    "conada": "Buckingham Conada",
+    "contender": "Vapid Contender",
+    "coquette": "Invetero Coquette",
+    "coquette3": "Invetero Coquette BlackFin",
+    "coquette6": "Invetero Coquette D5",
+    "coureur": "Penaud La Coureuse",
+    "cyclone": "Coil Cyclone",
+    "cyclone2": "Coil Cyclone II",
+    "cypher": "Ubermacht Cypher",
+    "daemon2": "Western Daemon Custom",
+    "deity": "Enus Deity",
+    "deveste": "Principe Deveste Eight",
+    "deviant": "Schyster Deviant",
+    "diablous": "Principe Diabolus",
+    "diablous2": "Principe Diabolus Custom",
+    "dodo": "Mammoth Dodo",
+    "dominator": "Vapid Dominator",
+    "dominator7": "Vapid Dominator ASP",
+    "dominator8": "Vapid Dominator GTT",
+    "dominator9": "Vapid Dominator GT",
+    "double": "Dinka Double-T",
+    "dubsta3": "Benefactor Dubsta 6x6",
+    "dukes2": "Imponte Duke O'Death",
+    "elegy": "Annis Elegy Retro Custom",
+    "elegy2": "Annis Elegy RH8",
+    "entity3": "Overflod Entity MT",
+    "entityxf": "Overflod Entity XF",
+    "envisage": "Bollokan Envisage",
+    "estride": "Ocelot E-Stride",
+    "eudora": "Willard Eudora",
+    "euros": "Annis Euros",
+    "eurosx32": "Annis Euros X32",
+    "everon3": "Karin Everon RS",
+    "faction": "Willard Faction",
+    "faction2": "Willard Faction Custom",
+    "faction3": "Willard Faction Custom Donk",
+    "fcr": "Pegassi FCR 1000",
+    "fcr2": "Pegassi FCR 1000 Custom",
+    "felon": "Lampadati Felon",
+    "felon2": "Lampadati Felon GT",
+    "feltzer2": "Benefactor Feltzer",
+    "feltzer3": "Benefactor Stirling GT",
+    "firebolt": "Vapid Firebolt ASP",
+    "fmj": "Vapid FMJ",
+    "fmj2": "Vapid FMJ MK V",
+    "formula": "Progen PR4",
+    "formula2": "Ocelot R88",
+    "fr36": "Fathom FR36",
+    "frogger": "Maibatsu Frogger",
+    "futo": "Karin Futo",
+    "futo2": "Karin Futo GTX",
+    "gauntlet": "Bravado Gauntlet",
+    "gauntlet3": "Bravado Gauntlet Classic",
+    "gauntlet4": "Bravado Gauntlet Hellfire",
+    "gauntlet5": "Bravado Gauntlet Classic Custom",
+    "glendale": "Benefactor Glendale",
+    "glendale2": "Benefactor Glendale Custom",
+    "gp1": "Progen GP1",
+    "granger2": "Declasse Granger 3600LX",
+    "greenwood": "Bravado Greenwood",
+    "gt500": "Grotti GT500",
+    "gt750": "Grotti GT750",
+    "hakuchou": "Shitzu Hakuchou",
+    "hakuchou2": "Shitzu Hakuchou Drag",
+    "hardy": "Annis Hardy",
+    "hellion": "Annis Hellion",
+    "hermes": "Albany Hermes",
+    "hexer": "LCC Hexer",
+    "horus": "Pegassi Horus",
+    "howard": "Buckingham Howard NX-25",
+    "ignus": "Pegassi Ignus",
+    "ignus2": "Pegassi Weaponized Ignus",
+    "imorgon": "Overflod Imorgon",
+    "impaler6": "Declasse Impaler LX",
+    "infernus": "Pegassi Infernus",
+    "issi2": "Weeny Issi",
+    "issi7": "Weeny Issi Sport",
+    "issi8": "Weeny Issi Rally",
+    "itali2": "Grotti Itali Classic",
+    "italigtb": "Progen Itali GTB",
+    "italigtb2": "Progen Itali GTB Custom",
+    "italigto": "Grotti Itali GTO",
+    "jb7002": "Dewbauchee JB 700W",
+    "jester3": "Dinka Jester Classic",
+    "jester4": "Dinka Jester RR",
+    "jester5": "Dinka Jester RR Widebody",
+    "jubilee": "Enus Jubilee",
+    "jugular": "Ocelot Jugular",
+    "kalahari": "Canis Kalahari",
+    "komoda": "Lampadati Komoda",
+    "krieger": "Benefactor Krieger",
+    "kuruma": "Karin Kuruma",
+    "l352": "Declasse Walton L35 Stock",
+    "laufer": "Benefactor Läufer",
+    "le7b": "Annis RE-7B",
+    "locust": "Ocelot Locust",
+    "lrcgt": "Benefactor LRC GT",
+    "luiva": "Progen Luiva",
+    "luxor": "Buckingham Luxor",
+    "luxor2": "Buckingham Luxor Deluxe",
+    "manana": "Albany Manana",
+    "manana2": "Albany Manana Custom",
+    "manchez": "Maibatsu Manchez",
+    "manchez2": "Maibatsu Manchez Scout",
+    "massacro": "Dewbauchee Massacro",
+    "massacro2": "Dewbauchee Massacro (Racecar)",
+    "maverick": "Buckingham Maverick",
+    "merula": "Albany Merula",
+    "mesa3": "Canis Mesa (Merryweather)",
+    "minivan": "Vapid Minivan",
+    "minivan2": "Vapid Minivan Custom",
+    "monstrociti": "Maibatsu MonstroCiti",
+    "moonbeam": "Declasse Moonbeam",
+    "moonbeam2": "Declasse Moonbeam Custom",
+    "neo": "Vysser Neo",
+    "nero": "Truffade Nero",
+    "nero2": "Truffade Nero Custom",
+    "ninef": "Obey 9F",
+    "ninef2": "Obey 9F Cabrio",
+    "niobe": "Ubermacht Niobe",
+    "omnisegt": "Obey Omnis e-GT",
+    "openwheel1": "Benefactor BR8",
+    "openwheel2": "Declasse DR1",
+    "paragon": "Enus Paragon R",
+    "paragon3": "Enus Paragon S",
+    "patriot": "Mammoth Patriot",
+    "patriot3": "Mammoth Patriot Mil-Spec",
+    "peyote": "Vapid Peyote",
+    "peyote2": "Vapid Peyote Gasser",
+    "peyote3": "Vapid Peyote Custom",
+    "pfister811": "Pfister 811",
+    "pipistrello": "Overflod Pipistrello",
+    "pizzaboy": "Pegassi Pizza Boy",
+    "polbuffalo": "Bravado Buffalo Cruiser",
+    "polbuffalo6": "Bravado Buffalo STX Pursuit",
+    "polcaracara": "Vapid Caracara Pursuit",
+    "polcoquette4": "Invetero Coquette D10 Pursuit",
+    "poldominator10": "Vapid Dominator FX Interceptor",
+    "poldorado": "Bravado Dorado Cruiser",
+    "polfaction2": "Willard Outreach Faction",
+    "polgauntlet": "Bravado Gauntlet Interceptor",
+    "polgreenwood": "Bravado Greenwood Cruiser",
+    "police4": "Vapid Unmarked Cruiser",
+    "police5": "Vapid Stanier LE Cruiser",
+    "policeb2": "Western Police Bike",
+    "polignus": "Pegassi Ignus Pursuit",
+    "polimpaler5": "Declasse Impaler SZ Cruiser",
+    "polimpaler6": "Declasse Impaler LX Cruiser",
+    "polterminus": "Canis Terminus Patrol",
+    "primo": "Albany Primo",
+    "primo2": "Albany Primo Custom",
+    "r300": "Annis 300R",
+    "raiden": "Coil Raiden",
+    "rapidgt": "Dewbauchee Rapid GT",
+    "rapidgt2": "Dewbauchee Rapid GT",
+    "rapidgt3": "Dewbauchee Rapid GT Classic",
+    "rapidgt4": "Dewbauchee Rapid GT X",
+    "raptor": "BF Raptor",
+    "ratel": "Vapid Ratel",
+    "reever": "Western Reever",
+    "remus": "Annis Remus",
+    "revolter": "Ubermacht Revolter",
+    "rumpo3": "Bravado Rumpo Custom",
+    "s80": "Annis S80RR",
+    "s95": "Karin S95",
+    "sabregt": "Declasse Sabre Turbo",
+    "sabregt2": "Declasse Sabre Turbo Custom",
+    "sanchez": "Maibatsu Sanchez (livery)",
+    "sanchez2": "Maibatsu Sanchez",
+    "savestra": "Annis Savestra",
+    "sc1": "Ubermacht SC1",
+    "schafter3": "Benefactor Schafter V12",
+    "schafter4": "Benefactor Schafter LWB",
+    "schafter5": "Benefactor Schafter V12 (Armored)",
+    "schafter6": "Benefactor Schafter LWB (Armored)",
+    "sentinel": "Ubermacht Sentinel XS",
+    "sentinel2": "Ubermacht Sentinel",
+    "sentinel3": "Ubermacht Sentinel Classic",
+    "sentinel4": "Ubermacht Sentinel Classic Widebody",
+    "sentinel5": "Ubermacht Sentinel GTS",
+    "sentinel6": "Ubermacht Sentinel XS4",
+    "seven70": "Dewbauchee Seven-70",
+    "sheava": "Emperor ETR1",
+    "shinobi": "Nagasaki Shinobi",
+    "shotaro": "Nagasaki Shotaro",
+    "slamvan": "Vapid Slamvan",
+    "slamvan3": "Vapid Slamvan Custom",
+    "specter": "Dewbauchee Specter",
+    "specter2": "Dewbauchee Specter Custom",
+    "stafford": "Enus Stafford",
+    "stanier": "Vapid Stanier",
+    "stinger": "Grotti Stinger",
+    "stingergt": "Grotti Stinger GT",
+    "stingertt": "Grotti Itali GTO Stinger TT",
+    "sultan": "Karin Sultan",
+    "sultanrs": "Karin Sultan RS",
+    "superd": "Enus Super Diamond",
+    "supervolito": "Buckingham SuperVolito",
+    "supervolito2": "Buckingham SuperVolito Carbon",
+    "swift2": "Buckingham Swift Deluxe",
+    "swinger": "Ocelot Swinger",
+    "tailgater": "Obey Tailgater",
+    "tampa4": "Declasse Tampa GT",
+    "tenf": "Obey 10F",
+    "tenf2": "Obey 10F Widebody",
+    "terbyte": "Benefactor Terrorbyte",
+    "terminus": "Canis Terminus",
+    "tezeract": "Pegassi Tezeract",
+    "tigon": "Lampadati Tigon",
+    "titan": "Mammoth Titan",
+    "torero": "Pegassi Torero",
+    "torero2": "Pegassi Torero XO",
+    "tornado": "Declasse Tornado",
+    "tornado2": "Declasse Tornado Convertible",
+    "tornado3": "Declasse Tornado (Rusty)",
+    "tornado5": "Declasse Tornado Custom",
+    "toros": "Pegassi Toros",
+    "tulip": "Declasse Tulip",
+    "turismo2": "Grotti Turismo Classic",
+    "turismo3": "Grotti Turismo Omaggio",
+    "tyrus": "Progen Tyrus",
+    "uranus": "Vapid Uranus LozSpeed",
+    "vacca": "Pegassi Vacca",
+    "velenogt": "Grotti Veleno GT",
+    "veto": "Dinka Veto Classic",
+    "veto2": "Dinka Veto Modern",
+    "vigero2": "Declasse Vigero ZX",
+    "vigero3": "Declasse Vigero ZX Convertible",
+    "virgo2": "Dundreary Virgo Classic Custom",
+    "virgo3": "Dundreary Virgo Classic",
+    "virtue": "Ocelot Virtue",
+    "viseris": "Lampadati Viseris",
+    "visione": "Grotti Visione",
+    "vivanite": "Karin Vivanite",
+    "volatus": "Buckingham Volatus",
+    "voodoo": "Declasse Voodoo Custom",
+    "voodoo2": "Declasse Voodoo",
+    "vortex": "Pegassi Vortex",
+    "vstr": "Albany V-STR",
+    "warden": "Gallivanter Warden",
+    "weevil": "BF Weevil",
+    "weevil2": "BF Weevil Custom",
+    "woodlander": "Karin Woodlander",
+    "xa21": "Ocelot XA-21",
+    "xls": "Benefactor XLS",
+    "xls2": "Benefactor XLS (Armored)",
+    "xtreme": "Pfister X-treme",
+    "yosemite": "Declasse Yosemite",
+    "yosemite3": "Declasse Yosemite Rancher",
+    "youga2": "Bravado Youga Classic",
+    "youga3": "Bravado Youga Classic 4x4",
+    "zentorno": "Pegassi Zentorno",
+    "zhaba": "RUNE Zhaba",
+    "zion3": "Ubermacht Zion Classic",
+    "zombieb": "Western Zombie Chopper",
+    "zorrusso": "Pegassi Zorrusso",
+    "zr350": "Annis ZR350",
+    "ztype": "Truffade Z-Type"
+  },
+  "disputed": {
+    "baller3": {
+      "source": "rockstar170",
+      "modelSource": "https://gtacars.net/gta5/baller3",
+      "note": "Rockstar’s 1.70 notes list the Baller LE for a jammer upgrade. The current exact-model specification and the feature list omit it. Verify the upgrade menu in game before buying this model for its jammer."
+    },
+    "caracara3": {
+      "source": "rockstar173",
+      "modelSource": "https://gtacars.net/gta5/caracara3",
+      "note": "Rockstar’s 1.73 introduction groups the Caracara (Armored) with jammer eligible additions. The current exact-model specification and the feature list omit it. Verify the upgrade menu in game before relying on this upgrade."
+    }
+  },
+  "bennyVariantSources": {
+    "tornado2": "https://gtacars.net/gta5/tornado2",
+    "tornado3": "https://gtacars.net/gta5/tornado3"
+  }
+}
