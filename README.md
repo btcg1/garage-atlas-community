@@ -8,6 +8,7 @@ A free, static GTA Online collection and garage planner for GitHub Pages. No acc
 - HSW, Benny’s donor/custom models, full Imani Tech and missile jammer compatibility filters. Installed upgrades remain personal records.
 - Colour-coded collection dropdowns and a featured-vehicle slideshow with previous, next and pause controls.
 - Owned, Watchlist, Not interested, Not obtainable and Explore views.
+- Searchable directory of 158 garage, storage and service presets, including 85 named residential garages. Fill names and capacities, add all floors, include separate bicycle racks, and enforce vehicle-specific storage rules. Service and temporary parking entries do not add fictional garage capacity.
 - Custom garages, capacities and themes. Count owned and watchlist together.
 - Protected garages and workshops kept empty for customisation.
 - Suggested themed assignments, reviewed before applying.
@@ -29,6 +30,11 @@ All application URLs are relative, so project sites work at a repository subpath
 Run `python3 -m http.server 8000` in this directory and open `http://localhost:8000`. Browser modules and local photo storage require a web origin. Opening the HTML file directly is not supported.
 
 ## Backups and privacy
+
+Open **Privacy & storage** in the app for the full notice. Collection records use localStorage, and photos use IndexedDB in the same browser profile. Both are local and unencrypted. Browser profile access, permitted extensions, and scripts on the same origin can access browser storage. Exported backups are also unencrypted.
+
+Fonts and reference images are hosted locally. A Content Security Policy restricts scripts and background connections to this origin, blocks frames and network form submission, and disables remote image fallbacks. Referrer information is suppressed. There is no analytics or collection-upload endpoint. GitHub Pages still receives connection information and logs visitor IPs for security, as described in its hosting documentation.
+
 
 Collection data stays in local storage. Photos stay in IndexedDB in the same browser. There is no automatic cloud sync. Export the collection JSON and the separate photo JSON before switching devices or clearing browser data. Photo backups import from an owned car’s detail panel or Help & backups.
 
