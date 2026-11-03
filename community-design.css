@@ -14,3 +14,4 @@
 @media(max-width:600px){.detail-comparison.has-reference{grid-template-columns:1fr}.detail-comparison .detail-visual{height:220px}.detail-comparison .real-reference{border-left:0;border-top:1px solid #d5dfed}.detail-comparison .real-reference>img{height:220px}}
 .compat-detail{background:#f1f5fc;color:#172b46;border-color:#ccdbee}.compat-detail h3,.compat-fact>strong{color:#203d62}.compat-fact p,.compat-detail>.muted{color:#526881}.compat-fact a,.compat-model-link{color:#285cc4}.compat-fact{border-color:#d6e1ef}.compat-detail .compat-review{background:#fff2da;color:#795010}
 .detail-info .compat-detail p.muted,.detail-info .compat-detail .compat-fact p{color:#526881}
+.muted{color:#5e6f83!important}.design-reference small{color:#566c86}
